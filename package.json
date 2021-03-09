@@ -1,5 +1,6 @@
 {
   "name": "docker-setup-buildx",
+  "version": "0.0.1",
   "description": "Set up Docker Buildx",
   "main": "lib/main.js",
   "scripts": {
