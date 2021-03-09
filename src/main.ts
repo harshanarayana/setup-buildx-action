@@ -87,8 +87,10 @@ async function cleanup(): Promise<void> {
   });
 }
 
-if (!stateHelper.IsPost) {
-  run();
-} else {
-  cleanup();
+export async function setupBuildx(): Promise<void> {
+    return run()
+}
+
+export async function cleanupBuildx(): Promise<void> {
+    return cleanup()
 }
